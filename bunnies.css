@@ -56,7 +56,7 @@ header .tools { grid-area: tools; }
     grid-area: feature; 
     display: block; /* always show text */
     overflow-wrap: break-word;
-    word-break: break-word;
+    word-break: normal;
 }
 
 /* Main content */
@@ -78,7 +78,7 @@ main .feature {
     background: rgb(255, 255, 255); 
     grid-area: feature; 
     overflow-wrap: break-word;
-    word-break: break-word;
+    word-break: normal;
 }
 
 main .mobile-ad { grid-area: ad; }
@@ -86,7 +86,7 @@ main .listing {
     background: rgb(255, 255, 255); 
     grid-area: listing; 
     overflow-wrap: break-word;
-    word-break: break-word;
+    word-break: normal;
 }
 
 /* Footer */
@@ -116,7 +116,7 @@ footer {
     background: rgb(255, 255, 255); 
     height: auto; 
     overflow-wrap: break-word;
-    word-break: break-word;
+    word-break: normal;
 }
 
 /* Show sidebar on tablet and up */
