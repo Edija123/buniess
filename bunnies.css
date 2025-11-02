@@ -2,7 +2,7 @@
    Base Styles
 ============================== */
 body {
-    background: LightGray;
+    background: rgb(255, 255, 255);
     margin: 0;
     font-size: 1.5em;
     text-align: center;
@@ -20,7 +20,7 @@ body {
 
 /* Header section */
 header {
-    background: LightSkyBlue;
+    background: rgb(193, 229, 251);
     padding: 10px;
     grid-area: header;
 
@@ -33,23 +33,23 @@ header {
 }
 
 header .brand {
-    background: rgb(69, 184, 255);
+    background: rgb(193, 229, 251);
     grid-area: brand;
 }
 
 header nav {
-    background: rgb(69, 184, 255);
+    background: rgb(193, 229, 251);
     grid-area: nav;
 }
 
 header .tools {
-    background: rgb(69, 184, 255);
+    background: rgb(193, 229, 251);
     grid-area: tools;
 }
 
 /* Hero section */
 .hero {
-    background: PaleGreen;
+    background: rgb(193, 244, 193);
     padding: 10px;
     grid-area: hero;
 
@@ -61,19 +61,19 @@ header .tools {
 }
 
 .hero .action {
-    background: rgb(68, 255, 68);
+    background: rgb(193, 244, 193);
     grid-area: action;
 }
 
 .hero .feature {
-    background: rgb(68, 255, 68);
+    background: rgb(193, 244, 193);
     grid-area: feature;
     display: none; /* hidden on mobile */
 }
 
 /* Main content */
 main {
-    background: lightpink;
+    background: rgb(232, 198, 203);
     padding: 10px;
     grid-area: main-content;
 
@@ -87,7 +87,7 @@ main {
 }
 
 main .feature {
-    background: rgb(255, 136, 154);
+    background: rgb(232, 198, 203);
     grid-area: feature;
 }
 
@@ -96,13 +96,13 @@ main .mobile-ad {
 }
 
 main .listing {
-    background: rgb(255, 136, 154);
+    background: rgb(232, 198, 203);
     grid-area: listing;
 }
 
 /* Footer */
 footer {
-    background: LightSalmon;
+    background: rgb(212, 190, 181);
     padding: 10px;
     grid-area: footer;
 }
