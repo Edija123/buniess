@@ -20,7 +20,7 @@ body {
 
 /* Header section */
 header {
-    background: rgb(193, 229, 251);
+    background: rgb(255, 115, 215);
     padding: 10px;
     grid-area: header;
 
@@ -38,7 +38,7 @@ header .tools { grid-area: tools; }
 
 /* Hero section */
 .hero {
-    background: rgb(193, 244, 193);
+    background: rgb(255, 255, 255);
     padding: 10px;
     grid-area: hero;
 
@@ -50,9 +50,9 @@ header .tools { grid-area: tools; }
         "action";
 }
 
-.hero .action { background: rgb(193, 244, 193); grid-area: action; }
+.hero .action { background: rgb(255, 255, 255); grid-area: action; }
 .hero .feature { 
-    background: rgb(193, 244, 193); 
+    background: rgb(255, 255, 255); 
     grid-area: feature; 
     display: block; /* always show text */
     overflow-wrap: break-word;
@@ -61,7 +61,7 @@ header .tools { grid-area: tools; }
 
 /* Main content */
 main {
-    background: rgb(232, 198, 203);
+    background: rgb(255, 255, 255);
     padding: 10px;
     grid-area: main-content;
 
@@ -75,7 +75,7 @@ main {
 }
 
 main .feature { 
-    background: rgb(232, 198, 203); 
+    background: rgb(255, 255, 255); 
     grid-area: feature; 
     overflow-wrap: break-word;
     word-break: break-word;
@@ -83,7 +83,7 @@ main .feature {
 
 main .mobile-ad { grid-area: ad; }
 main .listing { 
-    background: rgb(232, 198, 203); 
+    background: rgb(255, 255, 255); 
     grid-area: listing; 
     overflow-wrap: break-word;
     word-break: break-word;
@@ -105,14 +105,14 @@ footer {
 
 /* Sidebar */
 .sidebar {
-    background: BlanchedAlmond;
+    background: rgb(255, 255, 255);
     padding: 10px;
     grid-area: sidebar;
     display: block; /* always show sidebar on all screens */
 }
 
 .sidebar .feature { 
-    background: rgb(255, 208, 136); 
+    background: rgb(255, 255, 255); 
     height: auto; 
     overflow-wrap: break-word;
     word-break: break-word;
